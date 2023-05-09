@@ -15,6 +15,8 @@ def head():
 def num1(num1):
     return render_template('index.html', number1=num1, number2=100)
 
+
+
 # - Create an `body.html` file under templates folder.
 
 # - Create a function named `number` which sends number `num1` and `num2` and sum of them to the `index.html`. Use these variables into the `body.html` file. Assign a URL route the `number` function with decorator `@app.route('/sum')`.
